@@ -38,7 +38,7 @@ export const Home = () => {
   return (
     <div>
       <Navbar pokemonFilter={pokemonFilter} />
-      <Container maxWidth="false">
+      <Container maxWidth="false" >
         <Grid container spacing={3}>
           {pokemons.length === 0 ? (
             <Skeletons />
